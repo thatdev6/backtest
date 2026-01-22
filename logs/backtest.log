@@ -1,0 +1,278 @@
+2026-01-22 14:31:58,200 [INFO] Starting Backtest CLI
+2026-01-22 14:32:19,474 [ERROR] File not found: "D:\Github Projects\env-for-plutus\backtest\Assessment File - Python Engineer Role at Plutus21.xlsx"
+2026-01-22 14:32:19,474 [ERROR] Failed to load or preprocess file: File not found: "D:\Github Projects\env-for-plutus\backtest\Assessment File - Python Engineer Role at Plutus21.xlsx"
+2026-01-22 14:34:00,606 [INFO] Starting Backtest CLI
+2026-01-22 14:34:15,077 [INFO] File loaded successfully: D:\Github Projects\env-for-plutus\backtest\Assessment File - Python Engineer Role at Plutus21.xlsx (150 rows)
+2026-01-22 14:34:15,087 [ERROR] Missing required columns: ['identifier', 'weight', 'date']
+2026-01-22 14:34:15,087 [ERROR] Failed to load or preprocess file: Missing required columns: ['identifier', 'weight', 'date']
+2026-01-22 14:39:09,622 [INFO] Starting Backtest CLI
+2026-01-22 14:39:25,333 [INFO] File loaded successfully: D:\Github Projects\env-for-plutus\backtest\Assessment File - Python Engineer Role at Plutus21.xlsx (150 rows)
+2026-01-22 14:39:25,370 [INFO] Data preprocessed successfully (150 rows)
+2026-01-22 14:39:25,381 [INFO] Clean data saved to: data/df_clean.csv
+2026-01-22 14:39:25,381 [INFO] Data loaded and cleaned: 150 rows
+2026-01-22 14:39:32,346 [INFO] Loading data from file: D:\Github Projects\env-for-plutus\backtest\data\df_clean.csv
+2026-01-22 14:39:32,378 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 14:39:32,380 [INFO] Processing year 2020
+2026-01-22 14:40:31,793 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 14:40:31,793 [INFO] Bought shares for 30 assets in 2020
+2026-01-22 14:41:05,276 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2020
+2026-01-22 14:41:05,276 [INFO] Capital Start: 100,000.00
+2026-01-22 14:41:05,276 [INFO] Portfolio Value After 1Y: 180,176.97
+2026-01-22 14:41:05,342 [INFO] Generated report for year 2020
+2026-01-22 14:41:06,325 [INFO] Portfolio value on 2021-07-01 00:00:00: 180,176.97 (30 assets)
+2026-01-22 14:41:06,325 [INFO] End-of-year capital for 2020: 180,176.97
+2026-01-22 14:41:06,325 [INFO] Processing year 2021
+2026-01-22 14:41:19,461 [WARNING] Price fetch failed for HES on 2021-07-01 00:00:00: No price data for HES after 2021-07-01 00:00:00
+2026-01-22 14:41:19,461 [WARNING] Removing HES on 2021-07-01 00:00:00 due to missing price
+2026-01-22 14:41:53,110 [ERROR] Simulation failed: Length of values (30) does not match length of index (29)
+2026-01-22 14:46:38,024 [INFO] Starting Backtest CLI
+2026-01-22 14:46:47,507 [INFO] File loaded successfully: D:\Github Projects\env-for-plutus\backtest\Assessment File - Python Engineer Role at Plutus21.xlsx (150 rows)
+2026-01-22 14:46:47,511 [INFO] Data preprocessed successfully (150 rows)
+2026-01-22 14:46:47,516 [INFO] Clean data saved to: data/df_clean.csv
+2026-01-22 14:46:47,516 [INFO] Data loaded and cleaned: 150 rows
+2026-01-22 14:46:53,099 [INFO] Loading data from file: D:\Github Projects\env-for-plutus\backtest\data\df_clean.csv
+2026-01-22 14:46:53,099 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 14:46:53,099 [INFO] Processing year 2020
+2026-01-22 14:47:29,249 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 14:47:29,249 [INFO] Bought shares for 30 assets in 2020
+2026-01-22 14:48:03,398 [INFO] Portfolio value on 2021-07-01 00:00:00: 180,176.96 (30 assets)
+2026-01-22 14:48:04,474 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2020
+2026-01-22 14:48:04,476 [INFO] Capital Start: 100,000.00
+2026-01-22 14:48:04,476 [INFO] Portfolio Value After 1Y: 180,176.96
+2026-01-22 14:48:04,523 [INFO] End-of-year capital for 2020: 180,176.96
+2026-01-22 14:48:04,523 [INFO] Processing year 2021
+2026-01-22 14:48:15,350 [WARNING] Price fetch failed for HES on 2021-07-01 00:00:00: No price data for HES after 2021-07-01 00:00:00
+2026-01-22 14:48:15,350 [WARNING] Removing HES on 2021-07-01 00:00:00 due to missing price
+2026-01-22 14:48:41,129 [ERROR] Simulation failed: Length of values (30) does not match length of index (29)
+2026-01-22 14:54:05,271 [INFO] Starting Backtest CLI
+2026-01-22 14:54:16,829 [INFO] File loaded successfully: D:\Github Projects\env-for-plutus\backtest\Assessment File - Python Engineer Role at Plutus21.xlsx (150 rows)
+2026-01-22 14:54:16,832 [INFO] Data preprocessed successfully (150 rows)
+2026-01-22 14:54:16,839 [INFO] Clean data saved to: data/df_clean.csv
+2026-01-22 14:54:16,853 [INFO] Data loaded and cleaned: 150 rows
+2026-01-22 14:54:22,854 [INFO] Loading data from file: D:\Github Projects\env-for-plutus\backtest\data\df_clean.csv
+2026-01-22 14:54:22,861 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 14:54:22,861 [INFO] Processing year 2020
+2026-01-22 14:54:59,455 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 14:54:59,469 [INFO] Bought shares for 30 assets in 2020
+2026-01-22 14:55:35,085 [INFO] Portfolio value on 2021-07-01 00:00:00: 180,176.96 (30 assets)
+2026-01-22 14:55:36,102 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2020
+2026-01-22 14:55:36,102 [INFO] Capital Start: 100,000.00
+2026-01-22 14:55:36,102 [INFO] Portfolio Value After 1Y: 180,176.96
+2026-01-22 14:55:36,151 [INFO] End-of-year capital for 2020: 180,176.96
+2026-01-22 14:55:36,151 [INFO] Processing year 2021
+2026-01-22 14:55:46,771 [WARNING] Price fetch failed for HES on 2021-07-01 00:00:00: No price data for HES after 2021-07-01 00:00:00
+2026-01-22 14:55:46,772 [WARNING] Removing HES on 2021-07-01 00:00:00 due to missing price
+2026-01-22 14:56:14,669 [ERROR] Simulation failed: Length of values (30) does not match length of index (29)
+2026-01-22 15:01:49,031 [INFO] Starting Backtest CLI
+2026-01-22 15:01:58,474 [INFO] File loaded successfully: D:\Github Projects\env-for-plutus\backtest\Assessment File - Python Engineer Role at Plutus21.xlsx (150 rows)
+2026-01-22 15:02:44,691 [WARNING] Ticker removed (delisted): HES
+2026-01-22 15:04:36,961 [INFO] Delisted tickers removed. 148 valid rows remain.
+2026-01-22 15:04:36,971 [INFO] Data preprocessed successfully (148 rows)
+2026-01-22 15:04:36,987 [INFO] Clean data saved to: data/df_clean.csv
+2026-01-22 15:04:36,987 [INFO] Data loaded and cleaned: 148 rows
+2026-01-22 15:04:36,987 [WARNING] Invalid capital value.
+2026-01-22 15:05:01,353 [INFO] Loading data from file: D:\Github Projects\env-for-plutus\backtest\data\df_clean.csv
+2026-01-22 15:05:01,360 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 15:05:01,360 [INFO] Processing year 2020
+2026-01-22 15:05:38,685 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 15:05:38,685 [INFO] Bought shares for 30 assets in 2020
+2026-01-22 15:06:15,519 [INFO] Portfolio value on 2021-07-01 00:00:00: 180,176.97 (30 assets)
+2026-01-22 15:06:16,300 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2020
+2026-01-22 15:06:16,300 [INFO] Capital Start: 100,000.00
+2026-01-22 15:06:16,300 [INFO] Portfolio Value After 1Y: 180,176.97
+2026-01-22 15:06:16,351 [INFO] End-of-year capital for 2020: 180,176.97
+2026-01-22 15:06:16,351 [INFO] Processing year 2021
+2026-01-22 15:06:49,583 [INFO] Bought shares for 29 assets, 0 removed due to missing prices
+2026-01-22 15:06:49,583 [INFO] Bought shares for 29 assets in 2021
+2026-01-22 15:07:28,520 [INFO] Portfolio value on 2022-07-01 00:00:00: 186,652.18 (29 assets)
+2026-01-22 15:07:29,353 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2021
+2026-01-22 15:07:29,353 [INFO] Capital Start: 180,176.97
+2026-01-22 15:07:29,353 [INFO] Portfolio Value After 1Y: 186,652.18
+2026-01-22 15:07:29,398 [INFO] End-of-year capital for 2021: 186,652.18
+2026-01-22 15:07:29,398 [INFO] Processing year 2022
+2026-01-22 15:07:54,765 [INFO] Bought shares for 29 assets, 0 removed due to missing prices
+2026-01-22 15:07:54,765 [INFO] Bought shares for 29 assets in 2022
+2026-01-22 15:08:26,286 [INFO] Portfolio value on 2023-07-01 00:00:00: 268,975.56 (29 assets)
+2026-01-22 15:08:27,215 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2022
+2026-01-22 15:08:27,215 [INFO] Capital Start: 186,652.18
+2026-01-22 15:08:27,215 [INFO] Portfolio Value After 1Y: 268,975.56
+2026-01-22 15:08:27,262 [INFO] End-of-year capital for 2022: 268,975.56
+2026-01-22 15:08:27,274 [INFO] Processing year 2023
+2026-01-22 15:09:04,936 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 15:09:04,936 [INFO] Bought shares for 30 assets in 2023
+2026-01-22 15:09:50,370 [INFO] Portfolio value on 2024-07-01 00:00:00: 323,555.66 (30 assets)
+2026-01-22 15:09:51,183 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2023
+2026-01-22 15:09:51,183 [INFO] Capital Start: 268,975.56
+2026-01-22 15:09:51,183 [INFO] Portfolio Value After 1Y: 323,555.66
+2026-01-22 15:09:51,229 [INFO] End-of-year capital for 2023: 323,555.66
+2026-01-22 15:09:51,229 [INFO] Processing year 2024
+2026-01-22 15:10:11,917 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 15:10:11,920 [INFO] Bought shares for 30 assets in 2024
+2026-01-22 15:10:48,147 [INFO] Portfolio value on 2025-07-01 00:00:00: 371,653.12 (30 assets)
+2026-01-22 15:10:49,218 [INFO] PORTFOLIO DRIFT REPORT — YEAR 2024
+2026-01-22 15:10:49,218 [INFO] Capital Start: 323,555.66
+2026-01-22 15:10:49,218 [INFO] Portfolio Value After 1Y: 371,653.12
+2026-01-22 15:10:49,325 [INFO] End-of-year capital for 2024: 371,653.12
+2026-01-22 15:10:49,325 [INFO] Simulation completed.
+2026-01-22 15:10:49,325 [INFO] Final capital after 2024: 371,653.12
+2026-01-22 15:10:49,325 [INFO] Simulation complete!
+2026-01-22 15:10:49,775 [INFO] Backtest finished successfully!
+2026-01-22 16:02:46,707 [INFO] Starting Backtest CLI
+2026-01-22 16:02:51,923 [INFO] Session created: Sessions\test
+2026-01-22 16:02:57,081 [INFO] Raw data copied to session: Sessions\test\raw_data\Assessment File - Python Engineer Role at Plutus21.xlsx
+2026-01-22 16:03:06,936 [INFO] File loaded successfully: Sessions\test\raw_data\Assessment File - Python Engineer Role at Plutus21.xlsx (150 rows)
+2026-01-22 16:03:23,638 [INFO] 150 valid rows remain after delisted filter.
+2026-01-22 16:03:23,638 [INFO] Data preprocessed successfully (150 rows)
+2026-01-22 16:03:23,654 [INFO] Clean data saved to: Sessions\test\processed_data\df_clean.csv
+2026-01-22 16:03:23,654 [INFO] Data loaded and cleaned (150 rows).
+2026-01-22 16:03:46,872 [INFO] Loading data from file: Sessions\test\processed_data\df_clean.csv
+2026-01-22 16:03:46,888 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 16:03:46,888 [INFO] Processing year 2020
+2026-01-22 16:04:21,763 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 16:04:57,485 [INFO] Portfolio drift report prepared for year 2020 — capital start: 100,000.00, total end: 180,176.96
+2026-01-22 16:04:58,952 [INFO] Portfolio value on 2021-07-01 00:00:00: 180,176.96 (30 assets)
+2026-01-22 16:04:58,952 [INFO] End-of-year capital for 2020: 180,176.96
+2026-01-22 16:04:58,952 [INFO] Processing year 2021
+2026-01-22 16:05:09,652 [WARNING] Price fetch failed for HES on 2021-07-01 00:00:00: No price data for HES after 2021-07-01 00:00:00
+2026-01-22 16:05:09,652 [WARNING] Removing HES on 2021-07-01 00:00:00 due to missing price
+2026-01-22 16:05:36,369 [ERROR] Simulation failed: Length of values (30) does not match length of index (29)
+2026-01-22 16:09:20,868 [INFO] Starting Backtest CLI
+2026-01-22 16:09:23,194 [INFO] Session created: Sessions\test
+2026-01-22 16:09:26,798 [INFO] Raw data copied to session: Sessions\test\raw_data\Assessment File - Python Engineer Role at Plutus21.xlsx
+2026-01-22 16:09:38,277 [INFO] Starting Backtest CLI
+2026-01-22 16:09:41,547 [WARNING] Session folder already exists. Please choose a different name.
+2026-01-22 16:09:46,478 [INFO] Session created: Sessions\test2
+2026-01-22 16:09:49,511 [INFO] Raw data copied to session: Sessions\test2\raw_data\Assessment File - Python Engineer Role at Plutus21.xlsx
+2026-01-22 16:09:59,543 [INFO] File loaded successfully: Sessions\test2\raw_data\Assessment File - Python Engineer Role at Plutus21.xlsx (150 rows)
+2026-01-22 16:10:24,500 [WARNING] Ticker removed (delisted or no data): HES
+2026-01-22 16:10:52,561 [INFO] Delisted tickers removed. 148 valid rows remain.
+2026-01-22 16:10:52,576 [INFO] Data preprocessed successfully (148 rows)
+2026-01-22 16:10:52,594 [INFO] Clean data saved to: Sessions\test2\processed_data\df_clean.csv
+2026-01-22 16:10:52,594 [INFO] Data loaded and cleaned (148 rows).
+2026-01-22 16:11:00,429 [INFO] Loading data from file: Sessions\test2\processed_data\df_clean.csv
+2026-01-22 16:11:00,436 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 16:11:00,436 [INFO] Processing year 2020
+2026-01-22 16:11:34,242 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 16:12:08,990 [INFO] Portfolio drift report prepared for year 2020 — capital start: 100,000.00, total end: 180,176.97
+2026-01-22 16:12:09,605 [INFO] Portfolio value on 2021-07-01 00:00:00: 180,176.97 (30 assets)
+2026-01-22 16:12:09,608 [INFO] End-of-year capital for 2020: 180,176.97
+2026-01-22 16:12:09,608 [INFO] Processing year 2021
+2026-01-22 16:12:41,208 [INFO] Bought shares for 29 assets, 0 removed due to missing prices
+2026-01-22 16:13:13,783 [INFO] Portfolio drift report prepared for year 2021 — capital start: 180,176.97, total end: 186,652.17
+2026-01-22 16:13:14,623 [INFO] Portfolio value on 2022-07-01 00:00:00: 186,652.17 (29 assets)
+2026-01-22 16:13:14,634 [INFO] End-of-year capital for 2021: 186,652.17
+2026-01-22 16:13:14,635 [INFO] Processing year 2022
+2026-01-22 16:13:41,938 [INFO] Bought shares for 29 assets, 0 removed due to missing prices
+2026-01-22 16:14:16,370 [INFO] Portfolio drift report prepared for year 2022 — capital start: 186,652.17, total end: 268,975.55
+2026-01-22 16:14:17,153 [INFO] Portfolio value on 2023-07-01 00:00:00: 268,975.55 (29 assets)
+2026-01-22 16:14:17,153 [INFO] End-of-year capital for 2022: 268,975.55
+2026-01-22 16:14:17,153 [INFO] Processing year 2023
+2026-01-22 16:14:47,310 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 16:15:19,545 [INFO] Portfolio drift report prepared for year 2023 — capital start: 268,975.55, total end: 323,555.64
+2026-01-22 16:15:20,356 [INFO] Portfolio value on 2024-07-01 00:00:00: 323,555.64 (30 assets)
+2026-01-22 16:15:20,356 [INFO] End-of-year capital for 2023: 323,555.64
+2026-01-22 16:15:20,357 [INFO] Processing year 2024
+2026-01-22 16:15:46,617 [INFO] Bought shares for 30 assets, 0 removed due to missing prices
+2026-01-22 16:16:24,376 [INFO] Portfolio drift report prepared for year 2024 — capital start: 323,555.64, total end: 371,653.09
+2026-01-22 16:16:25,320 [INFO] Portfolio value on 2025-07-01 00:00:00: 371,653.09 (30 assets)
+2026-01-22 16:16:25,321 [INFO] End-of-year capital for 2024: 371,653.09
+2026-01-22 16:16:25,322 [INFO] Simulation completed.
+2026-01-22 16:16:25,322 [INFO] Final capital after 2024: 371,653.09
+2026-01-22 16:16:25,322 [INFO] Simulation complete!
+2026-01-22 16:16:25,799 [INFO] Portfolio metrics computed
+2026-01-22 16:16:27,520 [INFO] Portfolio growth line saved: Sessions\test2\results\portfolio_growth.png
+2026-01-22 16:16:27,552 [INFO] Metrics calculated and plots saved in results folder.
+2026-01-22 16:16:27,552 [INFO] Backtest finished successfully!
+2026-01-22 16:39:58,463 [INFO] Starting Backtest CLI
+2026-01-22 16:40:04,332 [INFO] Session created: Sessions\test3
+2026-01-22 16:40:17,127 [INFO] Raw data copied to session: Sessions\test3\raw_data\Assessment File - Python Engineer Role at Plutus21_sample.xlsx
+2026-01-22 16:40:29,992 [INFO] File loaded successfully: Sessions\test3\raw_data\Assessment File - Python Engineer Role at Plutus21_sample.xlsx (35 rows)
+2026-01-22 16:40:46,421 [INFO] Delisted tickers removed. 35 valid rows remain.
+2026-01-22 16:40:46,425 [INFO] Data preprocessed successfully (35 rows)
+2026-01-22 16:40:46,429 [INFO] Clean data saved to: Sessions\test3\processed_data\df_clean.csv
+2026-01-22 16:40:46,441 [INFO] Data loaded and cleaned (35 rows).
+2026-01-22 16:40:53,550 [INFO] Loading data from file: Sessions\test3\processed_data\df_clean.csv
+2026-01-22 16:40:53,559 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 16:40:53,559 [INFO] Processing year 2020
+2026-01-22 16:41:06,292 [INFO] Bought shares for 9 assets, 0 removed due to missing prices
+2026-01-22 16:41:18,778 [INFO] Portfolio drift report prepared for year 2020 — capital start: 100,000.00, total end: 146,947.07
+2026-01-22 16:41:18,941 [INFO] Portfolio value on 2021-07-01 00:00:00: 146,947.07 (9 assets)
+2026-01-22 16:41:18,941 [INFO] End-of-year capital for 2020: 146,947.07
+2026-01-22 16:41:18,941 [INFO] Processing year 2021
+2026-01-22 16:41:26,061 [INFO] Bought shares for 6 assets, 0 removed due to missing prices
+2026-01-22 16:41:33,791 [INFO] Portfolio drift report prepared for year 2021 — capital start: 146,947.07, total end: 155,102.50
+2026-01-22 16:41:33,993 [INFO] Portfolio value on 2022-07-01 00:00:00: 155,102.50 (6 assets)
+2026-01-22 16:41:33,993 [INFO] End-of-year capital for 2021: 155,102.50
+2026-01-22 16:41:33,993 [INFO] Processing year 2022
+2026-01-22 16:41:43,068 [INFO] Bought shares for 7 assets, 0 removed due to missing prices
+2026-01-22 16:41:53,511 [INFO] Portfolio drift report prepared for year 2022 — capital start: 155,102.50, total end: 254,448.72
+2026-01-22 16:41:53,707 [INFO] Portfolio value on 2023-07-01 00:00:00: 254,448.72 (7 assets)
+2026-01-22 16:41:53,707 [INFO] End-of-year capital for 2022: 254,448.72
+2026-01-22 16:41:53,707 [INFO] Processing year 2023
+2026-01-22 16:42:01,340 [INFO] Bought shares for 6 assets, 0 removed due to missing prices
+2026-01-22 16:42:08,577 [INFO] Portfolio drift report prepared for year 2023 — capital start: 254,448.72, total end: 257,283.87
+2026-01-22 16:42:08,774 [INFO] Portfolio value on 2024-07-01 00:00:00: 257,283.87 (6 assets)
+2026-01-22 16:42:08,774 [INFO] End-of-year capital for 2023: 257,283.87
+2026-01-22 16:42:08,774 [INFO] Processing year 2024
+2026-01-22 16:42:16,274 [INFO] Bought shares for 7 assets, 0 removed due to missing prices
+2026-01-22 16:42:24,740 [INFO] Portfolio drift report prepared for year 2024 — capital start: 257,283.87, total end: 274,252.31
+2026-01-22 16:42:24,928 [INFO] Portfolio value on 2025-07-01 00:00:00: 274,252.31 (7 assets)
+2026-01-22 16:42:24,928 [INFO] End-of-year capital for 2024: 274,252.31
+2026-01-22 16:42:24,929 [INFO] Simulation completed.
+2026-01-22 16:42:24,929 [INFO] Final capital after 2024: 274,252.31
+2026-01-22 16:42:24,930 [INFO] Simulation complete!
+2026-01-22 16:42:25,277 [INFO] Portfolio growth line saved: Sessions\test3\results\portfolio_growth.png
+2026-01-22 16:42:25,277 [INFO] All metrics plots saved in Sessions\test3\results
+2026-01-22 16:42:25,278 [ERROR] Metrics calculation failed: 'list' object has no attribute 'items'
+2026-01-22 16:52:57,438 [INFO] Starting Backtest CLI
+2026-01-22 16:52:59,940 [INFO] Session created: Sessions\test4
+2026-01-22 16:53:03,973 [INFO] Raw data copied to session: Sessions\test4\raw_data\Assessment File - Python Engineer Role at Plutus21_sample.xlsx
+2026-01-22 16:53:14,562 [INFO] File loaded successfully: Sessions\test4\raw_data\Assessment File - Python Engineer Role at Plutus21_sample.xlsx (35 rows)
+2026-01-22 16:53:29,217 [INFO] Delisted tickers removed. 35 valid rows remain.
+2026-01-22 16:53:29,221 [INFO] Data preprocessed successfully (35 rows)
+2026-01-22 16:53:29,221 [INFO] Clean data saved to: Sessions\test4\processed_data\df_clean.csv
+2026-01-22 16:53:29,238 [INFO] Data loaded and cleaned (35 rows).
+2026-01-22 16:53:41,065 [INFO] Loading data from file: Sessions\test4\processed_data\df_clean.csv
+2026-01-22 16:53:41,071 [INFO] Data contains 5 years: [np.int32(2020), np.int32(2021), np.int32(2022), np.int32(2023), np.int32(2024)]
+2026-01-22 16:53:41,071 [INFO] Processing year 2020
+2026-01-22 16:53:52,254 [INFO] Bought shares for 9 assets, 0 removed due to missing prices
+2026-01-22 16:54:01,800 [INFO] Portfolio drift report prepared for year 2020 — capital start: 100,000.00, total end: 146,947.07
+2026-01-22 16:54:02,176 [INFO] Portfolio value on 2021-07-01 00:00:00: 146,947.07 (9 assets)
+2026-01-22 16:54:02,176 [INFO] End-of-year capital for 2020: 146,947.07
+2026-01-22 16:54:02,176 [INFO] Processing year 2021
+2026-01-22 16:54:08,391 [INFO] Bought shares for 6 assets, 0 removed due to missing prices
+2026-01-22 16:54:16,329 [INFO] Portfolio drift report prepared for year 2021 — capital start: 146,947.07, total end: 155,102.50
+2026-01-22 16:54:16,487 [INFO] Portfolio value on 2022-07-01 00:00:00: 155,102.50 (6 assets)
+2026-01-22 16:54:16,487 [INFO] End-of-year capital for 2021: 155,102.50
+2026-01-22 16:54:16,487 [INFO] Processing year 2022
+2026-01-22 16:54:25,992 [INFO] Bought shares for 7 assets, 0 removed due to missing prices
+2026-01-22 16:54:34,219 [INFO] Portfolio drift report prepared for year 2022 — capital start: 155,102.50, total end: 254,448.71
+2026-01-22 16:54:34,353 [INFO] Portfolio value on 2023-07-01 00:00:00: 254,448.71 (7 assets)
+2026-01-22 16:54:34,353 [INFO] End-of-year capital for 2022: 254,448.71
+2026-01-22 16:54:34,353 [INFO] Processing year 2023
+2026-01-22 16:54:42,174 [INFO] Bought shares for 6 assets, 0 removed due to missing prices
+2026-01-22 16:54:49,619 [INFO] Portfolio drift report prepared for year 2023 — capital start: 254,448.71, total end: 257,283.84
+2026-01-22 16:54:49,840 [INFO] Portfolio value on 2024-07-01 00:00:00: 257,283.84 (6 assets)
+2026-01-22 16:54:49,841 [INFO] End-of-year capital for 2023: 257,283.84
+2026-01-22 16:54:49,842 [INFO] Processing year 2024
+2026-01-22 16:54:57,873 [INFO] Bought shares for 7 assets, 0 removed due to missing prices
+2026-01-22 16:55:05,476 [INFO] Portfolio drift report prepared for year 2024 — capital start: 257,283.84, total end: 274,252.27
+2026-01-22 16:55:05,705 [INFO] Portfolio value on 2025-07-01 00:00:00: 274,252.27 (7 assets)
+2026-01-22 16:55:05,705 [INFO] End-of-year capital for 2024: 274,252.27
+2026-01-22 16:55:05,707 [INFO] Simulation completed.
+2026-01-22 16:55:05,707 [INFO] Final capital after 2024: 274,252.27
+2026-01-22 16:55:05,707 [INFO] Simulation complete!
+2026-01-22 16:55:06,105 [INFO] Weight change bar saved: Sessions\test4\results\weight_change_2020.png
+2026-01-22 16:55:06,301 [INFO] Price change bar saved: Sessions\test4\results\price_change_2020.png
+2026-01-22 16:55:06,485 [INFO] Weight change bar saved: Sessions\test4\results\weight_change_2021.png
+2026-01-22 16:55:06,671 [INFO] Price change bar saved: Sessions\test4\results\price_change_2021.png
+2026-01-22 16:55:06,869 [INFO] Weight change bar saved: Sessions\test4\results\weight_change_2022.png
+2026-01-22 16:55:07,052 [INFO] Price change bar saved: Sessions\test4\results\price_change_2022.png
+2026-01-22 16:55:07,238 [INFO] Weight change bar saved: Sessions\test4\results\weight_change_2023.png
+2026-01-22 16:55:07,419 [INFO] Price change bar saved: Sessions\test4\results\price_change_2023.png
+2026-01-22 16:55:07,607 [INFO] Weight change bar saved: Sessions\test4\results\weight_change_2024.png
+2026-01-22 16:55:07,769 [INFO] Price change bar saved: Sessions\test4\results\price_change_2024.png
+2026-01-22 16:55:07,935 [INFO] Portfolio growth line saved: Sessions\test4\results\portfolio_growth.png
+2026-01-22 16:55:07,935 [INFO] All metrics plots saved in Sessions\test4\results
+2026-01-22 16:55:07,953 [INFO] Metrics calculated and all plots saved in results folder.
+2026-01-22 16:55:07,953 [INFO] Backtest finished successfully!
