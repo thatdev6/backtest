@@ -1,46 +1,36 @@
-# backtest
+\# Backtest Portfolio Simulation
+
+
 
 Assessment project for Plutus21 Capital.
 
 
 
-
-
-\# Backtest Portfolio Simulation
-
-
-
-\## \*\*Project Overview\*\*
+---
 
 
 
-This Python project simulates and analyzes portfolio performance based
-
-on historical allocation data. It provides a structured backtesting
-
-system that handles yearly portfolio rebalances, calculates key metrics,
-
-and generates visualizations for performance analysis.
+\## Project Overview
 
 
 
-The backtest assumes \*\*assets are bought at the start of the year, held
-
-for one year, and then sold/rebalanced according to the next year's
-
-allocation data\*\*. No target weights are enforced beyond the given data.
+This Python project simulates and analyzes portfolio performance based on historical allocation data. It provides a structured backtesting system that handles yearly portfolio rebalances, calculates key metrics, and generates visualizations for performance analysis.
 
 
 
-------------------------------------------------------------------------
+The backtest assumes \*\*assets are bought at the start of the year, held for one year, and then sold/rebalanced according to the next year's allocation data\*\*. No target weights are enforced beyond the given data.
 
 
 
-\## \*\*Folder Structure\*\*
+---
 
 
 
-``` text
+\## Folder Structure
+
+
+
+```text
 
 backtest/
 
@@ -84,21 +74,21 @@ backtest/
 
 
 
-------------------------------------------------------------------------
+---
 
 
 
-\## \*\*How to Run\*\*
+\## How to Run
 
 
 
-1\.  Ensure Python 3.x is installed.
+1\. Ensure Python 3.x is installed.
 
-2\.  Install required packages from `requirements.txt`:
+2\. Install required packages from `requirements.txt`:
 
 
 
-``` bash
+```bash
 
 pip install -r requirements.txt
 
@@ -106,13 +96,13 @@ pip install -r requirements.txt
 
 
 
-3\.  Place your portfolio file in the `data/` folder.
+3\. Place your portfolio file in the `data/` folder.
 
-4\.  Run the CLI:
+4\. Run the CLI:
 
 
 
-``` bash
+```bash
 
 python main.py
 
@@ -120,69 +110,71 @@ python main.py
 
 
 
-5\.  Follow prompts:
+5\. Follow prompts:
 
-&nbsp;   -   Enter session name
+&nbsp;  - Enter session name
 
-&nbsp;   -   Enter portfolio file path
+&nbsp;  - Enter portfolio file path
 
-&nbsp;   -   Specify column names for \*\*Ticker\*\*, \*\*Weight\*\*, and \*\*Date\*\*
+&nbsp;  - Specify column names for \*\*Ticker\*\*, \*\*Weight\*\*, and \*\*Date\*\*
 
-&nbsp;   -   Enter \*\*initial capital\*\*
-
-6\.  Check outputs in `Sessions/<session\_name>`:
-
-&nbsp;   -   \*\*raw\_data/\*\* -- Original portfolio file
-
-&nbsp;   -   \*\*processed\_data/\*\* -- Cleaned/preprocessed CSV
-
-&nbsp;   -   \*\*results/\*\* -- Yearly reports \& plots
+&nbsp;  - Enter \*\*initial capital\*\*
 
 
 
-------------------------------------------------------------------------
+6\. Check outputs in `Sessions/<session\_name>`:
+
+&nbsp;  - `raw\_data/` – Original portfolio file
+
+&nbsp;  - `processed\_data/` – Cleaned/preprocessed CSV
+
+&nbsp;  - `results/` – Yearly reports and plots
 
 
 
-\## \*\*Results Explanation\*\*
+---
 
 
 
-\### \*\*Yearly Reports\*\*
+\## Results Explanation
 
 
 
-\*\*`report\_<year>.csv`\*\* contains, for each asset:
+\### Yearly Reports
 
 
 
-\-   \*\*Ticker\*\* -- Asset identifier\\
-
-\-   \*\*Buy Price\*\* -- Price at start of year\\
-
-\-   \*\*Shares Bought\*\* -- Number of shares purchased\\
-
-\-   \*\*Weight at Buy\*\* -- Portfolio weight at purchase\\
-
-\-   \*\*Price After 1Y\*\* -- Price at rebalance date\\
-
-\-   \*\*Weight After 1Y\*\* -- Portfolio weight at end of year\\
-
-\-   \*\*Weight Change\*\* -- Drift in portfolio allocation\\
-
-\-   \*\*Action at Rebalance\*\* -- Sold / Rebought\\
-
-\-   \*\*Sold in Profit?\*\* -- Yes / No\\
-
-\-   \*\*Sell Price (Rebalance)\*\* -- Execution price
+`report\_<year>.csv` contains, for each asset:
 
 
 
-------------------------------------------------------------------------
+\- Ticker – Asset identifier
+
+\- Buy Price – Price at start of year
+
+\- Shares Bought – Number of shares purchased
+
+\- Weight at Buy – Portfolio weight at purchase
+
+\- Price After 1Y – Price at rebalance date
+
+\- Weight After 1Y – Portfolio weight at end of year
+
+\- Weight Change – Drift in portfolio allocation
+
+\- Action at Rebalance – Sold / Rebought
+
+\- Sold in Profit? – Yes / No
+
+\- Sell Price (Rebalance) – Execution price
 
 
 
-\### \*\*Plots\*\*
+---
+
+
+
+\### Plots
 
 
 
@@ -190,119 +182,101 @@ For each year:
 
 
 
-\-   \*\*Weight Change Bar Chart\*\* -- Portfolio drift visualization\\
+\- Weight Change Bar Chart – Portfolio drift visualization
 
-\-   \*\*Price Change Bar Chart\*\* -- Asset-level price movements\\
+\- Price Change Bar Chart – Asset-level price movements
 
-\-   \*\*Portfolio Growth Line Chart\*\* -- Cumulative portfolio value
+\- Portfolio Growth Line Chart – Cumulative portfolio value
 
 
 
-Plots are saved as `.png` files in `results/` and are \*\*not displayed in
+Plots are saved as `.png` files in `results/` and are \*\*not displayed in the CLI\*\*.
 
-the CLI\*\*.
 
 
+---
 
-------------------------------------------------------------------------
 
 
+\### Metrics
 
-\### \*\*Metrics\*\*
 
 
+\- Yearly CAGR (%)
 
-\-   \*\*Yearly CAGR (%)\*\*
+\- Overall Portfolio Growth (%)
 
-\-   \*\*Overall Portfolio Growth (%)\*\*
+\- Max Drawdown (%)
 
-\-   \*\*Max Drawdown (%)\*\*
+\- Year of Max Drawdown
 
-\-   \*\*Year of Max Drawdown\*\*
+\- Sharpe Ratio
 
-\-   \*\*Sharpe Ratio\*\*
+\- Total Profit
 
-\-   \*\*Total Profit\*\*
 
 
+---
 
-------------------------------------------------------------------------
 
 
+\## Function Descriptions
 
-\## \*\*Function Descriptions\*\*
 
 
+\### engine/data\_loader.py
 
-\### \*\*engine/data\_loader.py\*\*
 
 
+\- load\_file(file\_path)
 
-\-   `load\_file(file\_path)`
+\- remove\_delisted\_tickers(df)
 
-\-   `remove\_delisted\_tickers(df)`
+\- preprocess\_file(file\_path, ticker\_col, weight\_col, date\_col)
 
-\-   `preprocess\_file(file\_path, ticker\_col, weight\_col, date\_col)`
+\- save\_clean\_csv(df, out\_path)
 
-\-   `save\_clean\_csv(df, out\_path)`
 
 
+\### engine/simulate.py
 
-------------------------------------------------------------------------
 
 
+\- simulate\_from\_file(file\_path, initial\_capital)
 
-\### \*\*engine/simulate.py\*\*
 
 
+\### engine/report.py
 
-\-   `simulate\_from\_file(file\_path, initial\_capital)`
 
 
+\- report\_yearly\_purchases\_with\_drift(df\_bought, capital, year, date\_end, next\_year\_tickers)
 
-------------------------------------------------------------------------
 
 
+\### engine/metrics.py
 
-\### \*\*engine/report.py\*\*
 
 
+\- plot\_weight\_change\_bar(df\_report, year, out\_folder)
 
-\-   `report\_yearly\_purchases\_with\_drift(df\_bought, capital, year, date\_end, next\_year\_tickers)`
+\- plot\_price\_change\_bar(df\_report, year, out\_folder)
 
+\- plot\_portfolio\_growth(history\_df, out\_folder)
 
+\- run\_metrics(history\_df, session\_path, reports\_by\_year)
 
-------------------------------------------------------------------------
 
 
+---
 
-\### \*\*engine/metrics.py\*\*
 
 
+\## Formulas Used
 
-\-   `plot\_weight\_change\_bar(df\_report, year, out\_folder)`
 
-\-   `plot\_price\_change\_bar(df\_report, year, out\_folder)`
 
-\-   `plot\_portfolio\_growth(history\_df, out\_folder)`
-
-\-   `run\_metrics(history\_df, session\_path, reports\_by\_year)`
-
-
-
-------------------------------------------------------------------------
-
-
-
-\## \*\*Formulas Used\*\*
-
-
-
-\## \*\*Formulas Used\*\*
-
-
-
-\### \*\*Weight at Buy\*\*
+\### Weight at Buy
 
 
 
@@ -318,7 +292,7 @@ $$
 
 
 
-\### \*\*Weight After 1 Year\*\*
+\### Weight After 1 Year
 
 
 
@@ -334,7 +308,7 @@ $$
 
 
 
-\### \*\*Weight Change\*\*
+\### Weight Change
 
 
 
@@ -348,7 +322,7 @@ $$
 
 
 
-\### \*\*Shares Bought\*\*
+\### Shares Bought
 
 
 
@@ -364,7 +338,7 @@ $$
 
 
 
-\### \*\*Value of Shares Bought\*\*
+\### Value of Shares Bought
 
 
 
@@ -378,7 +352,7 @@ $$
 
 
 
-\### \*\*CAGR (Yearly)\*\*
+\### CAGR (Yearly)
 
 
 
@@ -398,7 +372,7 @@ $$
 
 
 
-\### \*\*Total Portfolio Growth\*\*
+\### Total Portfolio Growth
 
 
 
@@ -416,7 +390,7 @@ $$
 
 
 
-\### \*\*Drawdown\*\*
+\### Drawdown
 
 
 
@@ -432,7 +406,7 @@ $$
 
 
 
-\### \*\*Sharpe Ratio\*\*
+\### Sharpe Ratio
 
 
 
@@ -448,55 +422,53 @@ $$
 
 
 
-
-
-------------------------------------------------------------------------
-
-
-
-\## \*\*Assumptions\*\*
+---
 
 
 
-\-   Assets are bought at the start of the year
-
-\-   Assets are held for one year
-
-\-   Rebalancing occurs annually
-
-\-   No optimization or target weighting
-
-\-   Missing or delisted tickers are removed automatically
+\## Assumptions
 
 
 
-------------------------------------------------------------------------
+\- Assets are bought at the start of the year
+
+\- Assets are held for one year
+
+\- Rebalancing occurs annually
+
+\- No optimization or target weighting
+
+\- Missing or delisted tickers are removed automatically
 
 
 
-\## \*\*Future Enhancements\*\*
+---
 
 
 
-\-   Monthly / intraday backtesting
-
-\-   Additional risk metrics (Sortino, Beta, Volatility)
-
-\-   Portfolio optimization
-
-\-   GUI / web dashboard
-
-\-   Dynamic rebalance strategies
-
-\-   Automated data ingestion
+\## Future Enhancements
 
 
 
-------------------------------------------------------------------------
+\- Monthly / intraday backtesting
+
+\- Additional risk metrics (Sortino, Beta, Volatility)
+
+\- Portfolio optimization
+
+\- GUI or web dashboard
+
+\- Dynamic rebalance strategies
+
+\- Automated data ingestion
 
 
 
-✅ \*\*End of README\*\*
+---
+
+
+
+✅ End of README
 
 
 
